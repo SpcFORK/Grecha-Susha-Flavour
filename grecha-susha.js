@@ -47,6 +47,10 @@ class Grecha {
           get LOREM() { return this.__LOREM__() },
 
           att$(name, value) {
+            if (Array.isArray(value)) {
+              value = value.join(' ');
+            }
+
             cw.element.setAttribute(name, value);
             return cw;
           },
