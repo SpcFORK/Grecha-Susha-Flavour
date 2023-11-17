@@ -20,11 +20,11 @@ https://tsoding.github.io/grecha.js/example.html
 
 <head>
   <title>Grecha.js</title>
+  <script src="./grecha-sushsa.js"></script>
 </head>
 
 <body>
   <div id="entry"></div>
-  <script src="./grecha-sushsa.js"></script>
   <script>
     const kasha = img("Kasha.png");
     const kashaHard = img("KashaHard.gif");
