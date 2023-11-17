@@ -6,10 +6,6 @@ const windowMethods = {
 
   tag,
 
-  htmlDoc(...nodes) {
-    return tag('', ...nodes);
-  },
-
   // @ Basic
   img(src) {
     // return new ElementWrapper("img").att$("src", src).get$();
@@ -277,8 +273,14 @@ const windowMethods = {
   depadString,
 
   createDocument(...args) {
-    return new DOMParser()
+    return tag(
+      new DOMParser()
       .parseFromString(args, "text/html")
+    )
+  },
+
+  renderDocument(doc) {
+    return document.replaceChildren(doc);
   },
 
   SushaTemplates: {

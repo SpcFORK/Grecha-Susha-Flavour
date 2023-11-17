@@ -1,8 +1,14 @@
-# Grecha.js
+# Grecha-Susha.js
 
 ![KashaHard](KashaHard.gif)
 
-Simple Front-End JavaScript Framework. Originally designed for [emoteJAM](https://github.com/tsoding/emoteJAM). The name basically means [buckwheat](https://en.wikipedia.org/wiki/Buckwheat) in russian.
+Dead-Simple Front-End JavaScript Framework. 
+Originally designed for [emoteJAM](https://github.com/tsoding/emoteJAM).
+
+Derived into a more complete framework by [Spectcow](https://spcfork.replit.app).
+
+The name basically means [buckwheat](https://en.wikipedia.org/wiki/Buckwheat) and [land](https://en.wikipedia.org/wiki/land) in russian.
+
 
 ## Quick Start
 
@@ -18,7 +24,7 @@ https://tsoding.github.io/grecha.js/example.html
 
 <body>
   <div id="entry"></div>
-  <script src="./grecha.js"></script>
+  <script src="./grecha-sushsa.js"></script>
   <script>
     const kasha = img("Kasha.png");
     const kashaHard = img("KashaHard.gif");

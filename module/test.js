@@ -1,3 +1,3 @@
-import './grecha-susha.sourcemapjump.js';
+import Susha from './grecha-susha.mod.js';
 
-console.log(window.globalMethods)
+console.log(Susha)
