@@ -1,8 +1,12 @@
 const r = router({
 
   "/": (r) => {
+    let head = h1(
+      "Hello Susha!"
+    );
+    
     let topContainer = div(
-      
+      head
     )
 
       .att$('class', [
@@ -16,6 +20,12 @@ const r = router({
     return div(
       topContainer,
     )
+
+      .att$('class', [
+        'container',
+        'flex',
+      ])
+      .get$()
   },
 
   // Working 404
